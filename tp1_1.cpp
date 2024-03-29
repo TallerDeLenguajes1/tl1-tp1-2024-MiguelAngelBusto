@@ -13,6 +13,8 @@ int main(int argc, char const *argv[])
 
     std::cout << "3) Dirección de memoria de la variable: " << &variable << std::endl;
 
+    std::cout << "4) Dirección de memoria del puntero: " << &puntero << std::endl;
+
     
     return 0;
 }
