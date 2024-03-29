@@ -15,6 +15,7 @@ int main(int argc, char const *argv[])
 
     std::cout << "4) Dirección de memoria del puntero: " << &puntero << std::endl;
 
+    std::cout << "5) Tamaño de memoria utilizado por la variable: " << sizeof(variable) << " bytes" << std::endl;
     
     return 0;
 }
